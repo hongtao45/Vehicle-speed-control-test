@@ -41,5 +41,7 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <trip id="vehicle_0" depart="0.00" from="gneE1" to="gneE4"/>
+    <vType id="car" vClass="passenger" accel="0.8" decel="4.5" sigma="0.6" length="5" maxSpeed="41" minGap="5" color="255,0,27"/>
+    
+    <trip id="vehicle_0" type="car" depart="0.00" from="gneE1" to="gneE4"/>
 </routes>
