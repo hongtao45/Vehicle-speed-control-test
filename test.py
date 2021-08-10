@@ -66,9 +66,10 @@ def main_test(use_gui= False):
     traci.close()
 
     da = pd.DataFrame(sp_list)
-    da2 = pd.DataFrame(sp2_list)
+    da['sp2'] = sp2_list
+
+    da.columns =['sp', 'sp2']
     da.to_csv('speed.csv', index= None)
-    da2.to_csv('speed2.csv', index= None)
 
 
 if __name__ == "__main__":
