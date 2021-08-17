@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-08-10 17:13:59 by Eclipse SUMO netedit Version 1.9.2
+<!-- generated on 2021-08-17 17:05:35 by Eclipse SUMO netedit Version 1.9.2
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -41,7 +41,6 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <vType id="car" vClass="passenger" accel="0.8" decel="4.5" sigma="0.6" length="5" maxSpeed="41" minGap="5" color="255,0,27"/>
-    
+    <vType id="car" length="5.00" minGap="5.00" maxSpeed="41.00" vClass="passenger" color="255,0,27" accel="0.8" decel="4.5" sigma="0.6"/>
     <trip id="vehicle_0" type="car" depart="0.00" from="gneE1" to="gneE4"/>
 </routes>
